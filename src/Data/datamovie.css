@@ -1,0 +1,22 @@
+@media(max-width:550px){
+    .rowMovie{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:50px;
+
+    }
+
+    .tabel{
+        width:100%;
+        overflow-y: scroll;
+    }
+}
+
+@media(max-width:1103px){
+    .tabel{
+        width:100%;
+        overflow-y: scroll;
+    }
+}

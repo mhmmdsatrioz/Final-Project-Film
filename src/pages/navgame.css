@@ -1,0 +1,28 @@
+
+
+.a{
+    width:38px;
+     margin:auto 0;
+    height:35px;
+    border-radius: 5px;
+}
+
+.a:focus{
+    width:250px;
+}
+ 
+  
+  @media (max-width:550px){
+      
+    .a{
+        width:40px;
+    }
+
+    .a:focus{
+        width:120px;
+    }
+    .btnS{
+        right:0;
+        position:absolute;
+    }
+  }
